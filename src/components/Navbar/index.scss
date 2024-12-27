@@ -1,0 +1,25 @@
+.navbar-list{
+    background-color:rgb(33, 173, 228);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+    li{
+
+        .logo{
+            font-size: 26px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        &:hover{
+            a{
+                color: purple !important
+            };
+        }
+    }
+}
